@@ -4,7 +4,7 @@ import './Card.css';
 export default function Card({person}) {
     return (
         <div className = "card">
-            <h2>{person.nombre}</h2>
+            <h3>{person.nombre}</h3>
             <div className = "cardContent">
                 <img className = "avatar"
                     src = {person.imageUrl}

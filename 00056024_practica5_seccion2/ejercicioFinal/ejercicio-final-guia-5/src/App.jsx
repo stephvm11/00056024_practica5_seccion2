@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import {cientificas} from '/data.js';
-import Card from './card.jsx';
+import Card from './Card.jsx';
 import './App.css'
 
 export default function App() {
